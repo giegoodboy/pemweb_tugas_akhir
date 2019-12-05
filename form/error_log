@@ -1,0 +1,36 @@
+[20-Nov-2019 08:26:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+FATAL:  password authentication failed for user "postgres" in /home/lpwwebid/tugas.lpw.web.id/connectdb.php:11
+Stack trace:
+#0 /home/lpwwebid/tugas.lpw.web.id/connectdb.php(11): PDO->__construct('pgsql:host=loca...', 'postgres', 'ramaandika123')
+#1 /home/lpwwebid/tugas.lpw.web.id/form/fungsi.php(3): include('/home/lpwwebid/...')
+#2 {main}
+  thrown in /home/lpwwebid/tugas.lpw.web.id/connectdb.php on line 11
+[20-Nov-2019 08:28:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+FATAL:  password authentication failed for user "postgres" in /home/lpwwebid/tugas.lpw.web.id/connectdb.php:11
+Stack trace:
+#0 /home/lpwwebid/tugas.lpw.web.id/connectdb.php(11): PDO->__construct('pgsql:host=loca...', 'postgres', 'ramaandika123')
+#1 /home/lpwwebid/tugas.lpw.web.id/form/fungsi.php(3): include('/home/lpwwebid/...')
+#2 {main}
+  thrown in /home/lpwwebid/tugas.lpw.web.id/connectdb.php on line 11
+[20-Nov-2019 09:27:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+FATAL:  password authentication failed for user "postgres" in /home/lpwwebid/tugas.lpw.web.id/connectdb.php:11
+Stack trace:
+#0 /home/lpwwebid/tugas.lpw.web.id/connectdb.php(11): PDO->__construct('pgsql:host=loca...', 'postgres', 'ramaandika123')
+#1 /home/lpwwebid/tugas.lpw.web.id/form/fungsi.php(3): include('/home/lpwwebid/...')
+#2 {main}
+  thrown in /home/lpwwebid/tugas.lpw.web.id/connectdb.php on line 11
+[20-Nov-2019 13:38:59 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+FATAL:  no pg_hba.conf entry for host "127.0.0.1", user "lpwwebid_pemweb ", database "lpwwebid_oprec", SSL off in /home/lpwwebid/tugas.lpw.web.id/connectdb.php:11
+Stack trace:
+#0 /home/lpwwebid/tugas.lpw.web.id/connectdb.php(11): PDO->__construct('pgsql:host=loca...', 'lpwwebid_pemweb...', 'ramaandika123')
+#1 /home/lpwwebid/tugas.lpw.web.id/form/fungsi.php(3): include('/home/lpwwebid/...')
+#2 {main}
+  thrown in /home/lpwwebid/tugas.lpw.web.id/connectdb.php on line 11

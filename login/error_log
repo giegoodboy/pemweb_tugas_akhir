@@ -1,0 +1,55 @@
+[20-Nov-2019 09:00:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+FATAL:  password authentication failed for user "postgres" in /home/lpwwebid/tugas.lpw.web.id/login/connectdb.php:11
+Stack trace:
+#0 /home/lpwwebid/tugas.lpw.web.id/login/connectdb.php(11): PDO->__construct('pgsql:host=loca...', 'postgres', 'ramaandika123')
+#1 /home/lpwwebid/tugas.lpw.web.id/login/proseslogin.php(3): include('/home/lpwwebid/...')
+#2 {main}
+  thrown in /home/lpwwebid/tugas.lpw.web.id/login/connectdb.php on line 11
+[20-Nov-2019 09:25:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+FATAL:  password authentication failed for user "postgres" in /home/lpwwebid/tugas.lpw.web.id/login/connectdb.php:11
+Stack trace:
+#0 /home/lpwwebid/tugas.lpw.web.id/login/connectdb.php(11): PDO->__construct('pgsql:host=loca...', 'postgres', 'ramaandika123')
+#1 /home/lpwwebid/tugas.lpw.web.id/login/proseslogin.php(3): include('/home/lpwwebid/...')
+#2 {main}
+  thrown in /home/lpwwebid/tugas.lpw.web.id/login/connectdb.php on line 11
+[20-Nov-2019 09:28:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+FATAL:  password authentication failed for user "postgres" in /home/lpwwebid/tugas.lpw.web.id/login/connectdb.php:11
+Stack trace:
+#0 /home/lpwwebid/tugas.lpw.web.id/login/connectdb.php(11): PDO->__construct('pgsql:host=loca...', 'postgres', 'ramaandika123')
+#1 /home/lpwwebid/tugas.lpw.web.id/login/proseslogin.php(3): include('/home/lpwwebid/...')
+#2 {main}
+  thrown in /home/lpwwebid/tugas.lpw.web.id/login/connectdb.php on line 11
+[20-Nov-2019 13:22:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+FATAL:  password authentication failed for user "postgres" in /home/lpwwebid/tugas.lpw.web.id/login/connectdb.php:11
+Stack trace:
+#0 /home/lpwwebid/tugas.lpw.web.id/login/connectdb.php(11): PDO->__construct('pgsql:host=loca...', 'postgres', 'ramaandika123')
+#1 /home/lpwwebid/tugas.lpw.web.id/login/proseslogin.php(3): include('/home/lpwwebid/...')
+#2 {main}
+  thrown in /home/lpwwebid/tugas.lpw.web.id/login/connectdb.php on line 11
+[20-Nov-2019 13:25:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+FATAL:  password authentication failed for user "postgres" in /home/lpwwebid/tugas.lpw.web.id/login/connectdb.php:11
+Stack trace:
+#0 /home/lpwwebid/tugas.lpw.web.id/login/connectdb.php(11): PDO->__construct('pgsql:host=loca...', 'postgres', 'ramaandika123')
+#1 {main}
+  thrown in /home/lpwwebid/tugas.lpw.web.id/login/connectdb.php on line 11
+[20-Nov-2019 13:36:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+FATAL:  password authentication failed for user "postgres" in /home/lpwwebid/tugas.lpw.web.id/login/connectdb.php:11
+Stack trace:
+#0 /home/lpwwebid/tugas.lpw.web.id/login/connectdb.php(11): PDO->__construct('pgsql:host=loca...', 'postgres', 'ramaandika123')
+#1 /home/lpwwebid/tugas.lpw.web.id/login/proseslogin.php(3): include('/home/lpwwebid/...')
+#2 {main}
+  thrown in /home/lpwwebid/tugas.lpw.web.id/login/connectdb.php on line 11
+[20-Nov-2019 14:10:17 UTC] PHP Notice:  Undefined index: username in /home/lpwwebid/tugas.lpw.web.id/login/proseslogin.php on line 6
+[20-Nov-2019 14:10:17 UTC] PHP Notice:  Undefined index: password in /home/lpwwebid/tugas.lpw.web.id/login/proseslogin.php on line 7
